@@ -12,10 +12,21 @@ Pensada como práctica del taller realizado en clases en Unity.
 2. Unity Hub → **Open** → selecciona la carpeta clonada.
 3. Abre la escena: `Assets/Scenes/SampleScene.unity`.
 
-**Opción B – ZIP**
-1. En GitHub → **Code → Download ZIP** y descomprime.
+**Opción B – ZIP (descarga estándar de GitHub)**
+1. En GitHub → botón **Code → Download ZIP** y descomprime.
 2. Unity Hub → **Open** → carpeta descomprimida.
 3. Abre `Assets/Scenes/SampleScene.unity`.
+
+**Opción C – Descarga directa del paquete .7z (RECOMENDADA en este repo)**
+> En este repositorio está subido `Desarrollo_De_Terrenos.7z` con **solo** `Assets/`, `Packages/` y `ProjectSettings/`.
+
+1. En la página del repo, haz clic en **`Desarrollo_De_Terrenos.7z`**.
+2. Pulsa **Download raw** (o el botón **Download** si aparece).
+3. Descomprime el `.7z` (con 7-Zip o similar) en una carpeta nueva.
+4. Unity Hub → **Open** → selecciona esa carpeta.
+5. Abre la escena: `Assets/Scenes/SampleScene.unity`.
+
+> Alternativa futura: si el archivo se publica en **Releases**, entra a la pestaña **Releases** del repo y descarga la última versión (vX.Y).
 
 ---
 
@@ -48,9 +59,4 @@ El script está en `Assets/Scripts/FlyCamera.cs` y va en la **Main Camera**.
 ---
 
 ## 4) Estructura del proyecto
-
-Assets/
-├─ Scenes/ # Escenas (.unity) → abrir "SampleScene.unity"
-├─ Scripts/ # FlyCamera.cs (y/o OrbitCamera.cs)
-├─ Models/ # Modelos 3D (dragón, rocas, árboles, props, casa, texturas, etc)
 
