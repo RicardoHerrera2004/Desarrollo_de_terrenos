@@ -59,4 +59,22 @@ El script está en `Assets/Scripts/FlyCamera.cs` y va en la **Main Camera**.
 ---
 
 ## 4) Estructura del proyecto
+Assets/
+├─ Scenes/ # Escenas (.unity) → abrir "SampleScene.unity"
+├─ Scripts/ # FlyCamera.cs (y/o OrbitCamera.cs)
+├─ Models/ # Modelos 3D (dragón, rocas, árboles, props, etc.)
+├─ Materials/
+└─ Textures/
+Packages/ # Paquetes usados por Unity
+ProjectSettings/ # Ajustes del proyecto
+
+
+---
+
+## 5) Notas
+
+- Si Unity pregunta por versión, usa la misma con la que se creó el proyecto (recomendado 2022.3 LTS o superior compatible).
+- Si al abrir faltan paquetes, ve a **Window → Package Manager** y deja que Unity los resuelva.
+- El paquete `.7z` **no** incluye `Library/`, `Temp/`, `Builds/`, etc. (se regeneran automáticamente).
+
 
